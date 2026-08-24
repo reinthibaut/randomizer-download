@@ -1,0 +1,7 @@
+# Installers are uploaded as GitHub Release assets, never committed.
+# A ~90 MB binary in git history would be permanent and would bloat every clone.
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.blockmap

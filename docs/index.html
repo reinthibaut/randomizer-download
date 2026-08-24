@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rein's Randomizer — Download</title>
+<meta name="description" content="Download Rein's Randomizer voor Windows, Mac en Linux — verdeel klastaken eerlijk en willekeurig over het schooljaar.">
+<style>
+  :root {
+    --bg: #f6f7fb;
+    --surface: #ffffff;
+    --border: #e2e5ee;
+    --text: #171a21;
+    --muted: #5c6376;
+    --accent: #4f46e5;
+    --accent-text: #ffffff;
+    --warn-bg: #fff8e6;
+    --warn-border: #f0d69a;
+    --warn-text: #6b5316;
+    --code-bg: #eef0f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1016;
+      --surface: #171a22;
+      --border: #2a2f3c;
+      --text: #eceef4;
+      --muted: #9aa2b6;
+      --accent: #7c74f5;
+      --accent-text: #0e1016;
+      --warn-bg: #2a2313;
+      --warn-border: #4d411f;
+      --warn-text: #e8d5a3;
+      --code-bg: #21252f;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+
+  header { text-align: center; margin-bottom: 44px; }
+  .mark {
+    width: 64px; height: 64px; margin: 0 auto 20px;
+    border-radius: 16px; background: var(--accent);
+    display: grid; place-items: center;
+    font-size: 30px; font-weight: 700; color: var(--accent-text);
+    letter-spacing: -1px;
+  }
+  h1 { font-size: 2.1rem; margin: 0 0 10px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); font-size: 1.08rem; margin: 0; }
+
+  .cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .dl { flex: 1 1 260px; max-width: 320px; text-align: center; }
+  .btn {
+    display: block; background: var(--accent); color: var(--accent-text);
+    text-decoration: none; font-weight: 600; font-size: 1.05rem;
+    padding: 15px 24px; border-radius: 11px;
+    transition: transform .12s ease, opacity .12s ease;
+  }
+  .btn.secondary {
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .btn:hover { transform: translateY(-1px); opacity: .92; }
+  .meta { color: var(--muted); font-size: .88rem; margin-top: 10px; }
+  .alt-platform {
+    text-align: center; color: var(--muted);
+    font-size: .85rem; margin: 18px 0 0;
+  }
+  .alt-platform a { color: var(--accent); }
+
+  section {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; padding: 26px 28px; margin-top: 22px;
+  }
+  h2 { font-size: 1.2rem; margin: 0 0 14px; letter-spacing: -0.01em; }
+  p { margin: 0 0 14px; }
+  p:last-child, ol:last-child, ul:last-child { margin-bottom: 0; }
+
+  ol, ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 9px; }
+  li:last-child { margin-bottom: 0; }
+
+  .quote {
+    background: var(--code-bg); border-radius: 9px;
+    padding: 13px 16px; margin: 10px 0;
+    font-size: .93rem; color: var(--muted);
+  }
+  .quote strong { color: var(--text); display: block; margin-bottom: 3px; }
+
+  .notice {
+    background: var(--warn-bg); border: 1px solid var(--warn-border);
+    color: var(--warn-text); border-radius: 11px;
+    padding: 18px 22px; margin-top: 22px; font-size: .95rem;
+  }
+  .notice h2 { color: var(--warn-text); }
+
+  kbd {
+    background: var(--code-bg); border: 1px solid var(--border);
+    border-radius: 5px; padding: 1px 7px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .87em; color: var(--text);
+  }
+  code {
+    background: var(--code-bg); border-radius: 5px; padding: 2px 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .87em; color: var(--text);
+    overflow-wrap: anywhere;
+  }
+
+  footer {
+    text-align: center; color: var(--muted);
+    font-size: .85rem; margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="mark">R</div>
+    <h1>Rein's Randomizer</h1>
+    <p class="tagline">Verdeel klastaken eerlijk en willekeurig over het hele schooljaar.</p>
+  </header>
+
+  <div class="cta">
+    <div class="dl">
+      <a class="btn" href="https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer-Setup.exe">
+        Download voor Windows
+      </a>
+      <div class="meta">Versie 1.0.0 &middot; ongeveer 80 MB<br>Windows 10 en 11 (64-bit)</div>
+    </div>
+    <div class="dl">
+      <a class="btn secondary" href="https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer.dmg">
+        Download voor Mac
+      </a>
+      <div class="meta">Versie 1.0.0 &middot; ongeveer 170 MB<br>macOS 11 en later, elke Mac</div>
+    </div>
+  </div>
+
+  <p class="alt-platform">
+    Gebruik je Linux? Haal de <code>.AppImage</code> of <code>.deb</code> van de
+    <a href="https://github.com/reinthibaut/randomizer-download/releases/latest">releases-pagina</a>.
+  </p>
+
+  <section>
+    <h2>Wat doet het?</h2>
+    <p>
+      Je vult één keer in wie er in de klas zit en welke taken er te verdelen zijn. Daarna
+      kiest de app wie wat doet — willekeurig, maar wel eerlijk: hij houdt bij wie al aan de
+      beurt is geweest, zodat niet altijd dezelfde persoon de vervelende taak krijgt.
+    </p>
+    <ul>
+      <li><strong>Naam sets</strong> — lijsten met namen, bijvoorbeeld één per klas.</li>
+      <li><strong>Taken</strong> — wat er verdeeld moet worden, zoals bord vegen of afval buitenzetten.</li>
+      <li><strong>Templates</strong> — koppelen een naam set aan taken, aan de dagen waarop het
+          telt, en aan de vakantieperiodes die overgeslagen worden.</li>
+      <li><strong>Volledig schema</strong> — genereert in één keer het rooster voor het hele
+          jaar, dat je kunt exporteren als tekstbestand.</li>
+      <li><strong>Groepen</strong> — verdeelt de klas in groepjes, met afwezigheden en herschudden.</li>
+    </ul>
+    <p>
+      Bij <strong>Tracking</strong> onthoudt de app wie al geweest is en verdeelt hij eerlijk.
+      Wil je dat niet, dan zet je hem op <strong>Puur willekeurig</strong> en telt elke keuze
+      op zichzelf.
+    </p>
+  </section>
+
+  <div class="notice">
+    <h2>Windows toont een waarschuwing. Dat hoort zo.</h2>
+    <p>
+      Als je het bestand opent, laat Windows een blauw kader zien met de melding dat het de
+      app niet herkent. Dat gebeurt bij elk programma dat niet bij Microsoft geregistreerd
+      is, en dat registreren kost geld — niet de moeite voor een kleine app als deze.
+      Zo kom je erlangs:
+    </p>
+    <div class="quote">
+      <strong>Windows heeft uw pc beveiligd</strong>
+      Microsoft Defender SmartScreen heeft voorkomen dat een onbekende app is gestart.
+    </div>
+    <ol>
+      <li>Klik op <kbd>Meer informatie</kbd> — de kleine grijze tekst in dat blauwe kader.</li>
+      <li>Onderaan verschijnt een knop. Klik op <kbd>Toch uitvoeren</kbd>.</li>
+      <li>Het gewone installatievenster opent. Klik er verder gewoon doorheen.</li>
+    </ol>
+    <p style="margin-top:14px">
+      Liever niet? Geen probleem — vraag Rein om het voor je te installeren.
+    </p>
+  </div>
+
+  <div class="notice">
+    <h2>Op een Mac zijn er een paar stappen extra</h2>
+    <p>
+      Apple blokkeert apps die niet bij hen geregistreerd zijn, en laat je — anders dan
+      Windows — niet in één klik doorgaan. Het is niet moeilijk, wel wat omslachtig:
+    </p>
+    <ol>
+      <li>Open het gedownloade <code>.dmg</code>-bestand en sleep
+          <strong>Rein's Randomizer</strong> naar je map <strong>Programma's</strong>.</li>
+      <li>Open <strong>Programma's</strong> en dubbelklik op <strong>Rein's Randomizer</strong>.
+          macOS weigert en toont dit:</li>
+    </ol>
+    <div class="quote">
+      <strong>&ldquo;Rein's Randomizer&rdquo; is niet geopend</strong>
+      Apple kon niet verifiëren of &ldquo;Rein's Randomizer&rdquo; vrij is van malware die je
+      Mac kan schaden of je privacy kan schenden.
+    </div>
+    <ol start="3">
+      <li>Klik op <kbd>Gereed</kbd>. Deze stap hoort erbij — hij moet één keer geweigerd
+          worden voordat Apple je toestemming laat geven.</li>
+      <li>Open <strong>Systeeminstellingen</strong> → <strong>Privacy en beveiliging</strong>.</li>
+      <li>Scroll helemaal naar beneden, naar <strong>Beveiliging</strong>. Daar staat
+          &ldquo;Rein's Randomizer is geblokkeerd om je Mac te beschermen.&rdquo; Klik op
+          <kbd>Toch openen</kbd>.</li>
+      <li>Voer je Mac-wachtwoord in en klik nog een keer op <kbd>Toch openen</kbd>.</li>
+    </ol>
+    <p style="margin-top:14px">
+      Dit doe je maar één keer. Daarna opent de app gewoon, zoals elke andere.
+    </p>
+    <p>
+      <strong>Op oudere Macs</strong> (macOS Sonoma en eerder) gaat het sneller: rechtsklik
+      op de app, kies <kbd>Open</kbd>, en dan nog eens <kbd>Open</kbd>. Apple heeft die
+      snelkoppeling in nieuwere versies weggehaald.
+    </p>
+  </div>
+
+  <section>
+    <h2>Op Linux</h2>
+    <p>
+      Linux heeft geen SmartScreen of Gatekeeper, dus er zijn geen waarschuwingen om door te
+      klikken. Er zijn twee bestanden en je hebt er maar één nodig:
+    </p>
+    <ul>
+      <li>
+        <strong><code>.AppImage</code></strong> — werkt op elke distributie, zonder te
+        installeren. Je moet hem eenmalig uitvoerbaar maken: rechtsklik →
+        <strong>Eigenschappen</strong> → <em>Bestand als programma uitvoeren toestaan</em>,
+        of in een terminal <code>chmod +x ReinsRandomizer.AppImage</code>. Daarna dubbelklikken.
+      </li>
+      <li>
+        <strong><code>.deb</code></strong> — voor Ubuntu, Mint en Debian. Dubbelklikken
+        installeert hem, en de app verschijnt in je menu.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Is dit veilig om te installeren?</h2>
+    <p>
+      Het is een persoonlijk project van Rein, geen commercieel product. Het draait volledig
+      op je eigen computer: er wordt niets geüpload, er is geen account, geen registratie en
+      geen internetverbinding nodig om het te gebruiken.
+    </p>
+    <p>
+      Je namenlijsten en roosters staan alleen op je eigen machine, in je persoonlijke
+      gebruikersmap.
+    </p>
+  </section>
+
+  <section>
+    <h2>Verwijderen</h2>
+    <p>
+      <strong>Op Windows:</strong> ga naar <strong>Instellingen</strong> →
+      <strong>Apps</strong> → zoek <strong>Rein's Randomizer</strong> →
+      <strong>Verwijderen</strong>. Het gaat er netjes af, net als elk ander programma.
+    </p>
+    <p>
+      <strong>Op Mac:</strong> open je map <strong>Programma's</strong>, sleep
+      <strong>Rein's Randomizer</strong> naar de Prullenmand en leeg die. Macs hebben geen
+      uninstaller — iets wegslepen is daar de normale manier.
+    </p>
+    <p>
+      <strong>Op Linux:</strong> een <code>.deb</code> verwijder je met
+      <code>sudo apt remove reins-randomizer</code>. Een AppImage verwijder je door het
+      bestand zelf weg te gooien.
+    </p>
+
+    <p style="margin-top:18px">
+      In alle gevallen worden <strong>je namenlijsten en roosters niet verwijderd</strong>.
+      Die staan in een aparte map, dus als je later opnieuw installeert staat alles er nog.
+      Meestal is dat precies wat je wilt — maar wil je echt alles wissen:
+    </p>
+    <ul>
+      <li>
+        <strong>Windows</strong> — druk op <kbd>Win</kbd> + <kbd>R</kbd>, plak
+        <code>%APPDATA%\classroom-randomizer</code>, druk op Enter en verwijder die map.
+      </li>
+      <li>
+        <strong>Mac</strong> — druk in Finder op <kbd>Cmd</kbd> + <kbd>Shift</kbd> +
+        <kbd>G</kbd>, plak <code>~/Library/Application Support/classroom-randomizer</code>,
+        druk op Enter en sleep die map naar de Prullenmand.
+      </li>
+      <li>
+        <strong>Linux</strong> — verwijder de map <code>~/.config/classroom-randomizer</code>.
+      </li>
+    </ul>
+    <p>
+      Dat wist je namenlijsten, templates en de volledige geschiedenis definitief. Exporteer
+      eerst je schema als je het nog nodig hebt.
+    </p>
+  </section>
+
+  <footer>
+    Gemaakt door Rein Thibaut
+  </footer>
+
+</div>
+</body>
+</html>
