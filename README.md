@@ -1,103 +1,105 @@
 # Rein's Randomizer — Download
 
-Verdeel klastaken eerlijk en willekeurig over het hele schooljaar.
+Share classroom jobs fairly and randomly across the whole school year.
 
-**→ [Downloadpagina](https://reinthibaut.github.io/randomizer-download/)**
+**→ [Download page](https://reinthibaut.github.io/randomizer-download/)**
 
-Of pak de installer meteen:
+Or grab the installer directly:
 
-- **Windows** — [ReinsRandomizer-Setup.exe](https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer-Setup.exe) (~80 MB, Windows 10 en 11, 64-bit) — versie 1.0.0
-- **Mac** — [ReinsRandomizer.dmg](https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer.dmg) (~170 MB, macOS 11+, Apple Silicon en Intel) — versie 1.0.0
-- **Linux** — [ReinsRandomizer.AppImage](https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer.AppImage) (elke distributie, zonder installeren) of
+- **Windows** — [ReinsRandomizer-Setup.exe](https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer-Setup.exe) (~80 MB, Windows 10 and 11, 64-bit) — version 1.0.0
+- **Mac** — [ReinsRandomizer.dmg](https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer.dmg) (~170 MB, macOS 11+, Apple Silicon and Intel) — version 1.0.0
+- **Linux** — [ReinsRandomizer.AppImage](https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer.AppImage) (any distro, no install) or
   [ReinsRandomizer.deb](https://github.com/reinthibaut/randomizer-download/releases/latest/download/ReinsRandomizer.deb) (Ubuntu, Mint, Debian)
 
-## Wat doet het?
+## What does it do?
 
-Je vult één keer in wie er in de klas zit en welke taken er te verdelen zijn. Daarna kiest de
-app wie wat doet — willekeurig, maar wel eerlijk: hij houdt bij wie al aan de beurt is
-geweest, zodat niet altijd dezelfde persoon de vervelende taak krijgt.
+You fill in once who is in the class and which jobs need sharing out. After that the app picks
+who does what — at random, but fairly: it keeps track of whose turn it has already been, so the
+same person doesn't always end up with the job nobody wants.
 
-- **Naam sets** — lijsten met namen, bijvoorbeeld één per klas
-- **Taken** — wat er verdeeld moet worden, zoals bord vegen of afval buitenzetten
-- **Templates** — koppelen een naam set aan taken, aan de dagen waarop het telt, en aan de
-  vakantieperiodes die overgeslagen worden
-- **Volledig schema** — genereert in één keer het rooster voor het hele jaar, exporteerbaar
-  als tekstbestand
-- **Groepen** — verdeelt de klas in groepjes, met afwezigheden en herschudden
+**The app itself is in Dutch**, so the screen names below are the ones you'll actually see on
+the buttons:
 
-Bij **Tracking** onthoudt de app wie al geweest is en verdeelt hij eerlijk. Bij **Puur
-willekeurig** telt elke keuze op zichzelf.
+- **Naam sets** (name sets) — lists of names, one per class for instance
+- **Taken** (tasks) — what needs sharing out, like wiping the board or taking the bins out
+- **Templates** — tie a name set to a set of tasks, to the days it applies on, and to the
+  holiday periods that get skipped
+- **Volledig schema** (full schedule) — generates the rota for the entire year in one go,
+  exportable as a text file
+- **Groepen** (groups) — splits the class into small groups, with absences and reshuffling
 
-## Windows toont een waarschuwing — dat hoort zo
+On **Tracking** the app remembers whose turn it has been and shares things out evenly. On
+**Puur willekeurig** (purely random) every pick stands on its own.
 
-Als je het bestand opent, laat Windows een blauw kader zien:
+## Windows will show a warning — that's expected
 
-> **Windows heeft uw pc beveiligd**
-> Microsoft Defender SmartScreen heeft voorkomen dat een onbekende app is gestart.
+When you open the file, Windows shows a blue box:
 
-Dat gebeurt bij elk programma dat niet bij Microsoft geregistreerd is, wat geld kost en de
-moeite niet waard is voor een kleine app als deze. Om verder te gaan:
+> **Windows protected your PC**
+> Microsoft Defender SmartScreen prevented an unrecognised app from starting.
 
-1. Klik op **Meer informatie** — de kleine grijze tekst in dat blauwe kader
-2. Klik op **Toch uitvoeren** — de knop die onderaan verschijnt
-3. Het gewone installatievenster opent; klik er verder doorheen zoals altijd
+This happens to every program that hasn't been registered with Microsoft, which costs money and
+isn't worth it for a small app like this one. To continue:
 
-Liever niet? Vraag Rein gerust om het voor je te installeren.
+1. Click **More info** — the small grey text in that blue box
+2. Click **Run anyway** — the button that appears at the bottom
+3. The normal installer opens; click through it as usual
 
-## Op een Mac zijn er een paar stappen extra
+If you'd rather not, just ask Rein to install it for you.
 
-Apple blokkeert apps die niet bij hen geregistreerd zijn, en laat je niet in één klik
-doorgaan zoals Windows dat doet.
+## On a Mac, it takes a few more steps
 
-1. Open het `.dmg`-bestand en sleep **Rein's Randomizer** naar **Programma's**
-2. Open **Programma's** en dubbelklik op **Rein's Randomizer** — macOS weigert:
-   > **"Rein's Randomizer" is niet geopend** — Apple kon niet verifiëren of "Rein's
-   > Randomizer" vrij is van malware die je Mac kan schaden of je privacy kan schenden.
-3. Klik op **Gereed**. Hij moet één keer geweigerd worden voordat Apple je toestemming
-   laat geven.
-4. Open **Systeeminstellingen** → **Privacy en beveiliging**
-5. Scroll naar beneden, naar **Beveiliging**. Klik op **Toch openen** naast "Rein's
-   Randomizer is geblokkeerd om je Mac te beschermen."
-6. Voer je Mac-wachtwoord in en klik nog een keer op **Toch openen**
+Apple blocks apps that aren't registered with them, and won't let you click straight through
+like Windows does.
 
-Dit doe je maar één keer. Daarna opent hij zoals elke andere app.
+1. Open the `.dmg` and drag **Rein's Randomizer** into **Applications**
+2. Open **Applications** and double-click **Rein's Randomizer** — macOS will refuse:
+   > **"Rein's Randomizer" Not Opened** — Apple could not verify "Rein's Randomizer" is free
+   > of malware that may harm your Mac or compromise your privacy.
+3. Click **Done**. It has to be refused once before Apple lets you allow it.
+4. Open **System Settings** → **Privacy & Security**
+5. Scroll to the bottom, to **Security**. Click **Open Anyway** next to "Rein's Randomizer was
+   blocked to protect your Mac."
+6. Enter your Mac password, then click **Open Anyway** again
 
-**Op macOS Sonoma en eerder** gaat het sneller: rechtsklik op de app → **Open** → **Open**.
-Apple heeft die snelkoppeling in nieuwere versies weggehaald.
+You only do this once. After that it opens like any other app.
 
-## Op Linux
+**On macOS Sonoma and earlier** it's quicker: right-click the app → **Open** → **Open**. Apple
+removed that shortcut in newer versions.
 
-Linux heeft geen SmartScreen of Gatekeeper, dus er zijn geen waarschuwingen om door te
-klikken. Voor de AppImage moet je hem eenmalig uitvoerbaar maken —
-`chmod +x ReinsRandomizer.AppImage`, of rechtsklik → Eigenschappen → *Bestand als programma
-uitvoeren toestaan*. De `.deb` installeer je door erop te dubbelklikken.
+## On Linux
 
-## Is dit veilig?
+Linux has no SmartScreen or Gatekeeper equivalent, so there are no security warnings to click
+through. For the AppImage you may need to mark it executable first —
+`chmod +x ReinsRandomizer.AppImage`, or right-click → Properties → *Allow executing file as
+program*. The `.deb` installs by double-clicking it.
 
-Het is een persoonlijk project, geen commercieel product. Het draait volledig op je eigen
-computer — er wordt niets geüpload, er is geen account, en er is geen internetverbinding
-nodig. Je namenlijsten en roosters staan alleen op je eigen machine.
+## Is this safe?
 
-## Verwijderen
+It's a personal project, not a commercial product. It runs entirely on your own computer —
+nothing is uploaded, there's no account, and it needs no internet connection. Your name lists
+and rotas are stored only on your own machine.
 
-**Windows** — **Instellingen** → **Apps** → **Rein's Randomizer** → **Verwijderen**.
+## Uninstalling
 
-**Mac** — open **Programma's**, sleep **Rein's Randomizer** naar de Prullenmand en leeg die.
-Macs hebben geen uninstaller; iets wegslepen is daar de normale manier.
+**Windows** — **Settings** → **Apps** → **Rein's Randomizer** → **Uninstall**.
 
-**Linux** — `sudo apt remove classroom-randomizer` voor de `.deb`. Een AppImage gooi je gewoon weg.
+**Mac** — open **Applications**, drag **Rein's Randomizer** to the Bin, empty the Bin. Macs have
+no uninstaller; dragging it away is the normal way to remove an app.
 
-Je namenlijsten en roosters worden daarbij **niet** verwijderd — die staan apart, zodat
-opnieuw installeren alles terugvindt. Wil je die ook wissen:
+**Linux** — `sudo apt remove classroom-randomizer` for the `.deb`. An AppImage you just delete.
 
-- **Windows** — <kbd>Win</kbd>+<kbd>R</kbd>, plak `%APPDATA%\classroom-randomizer`, Enter, verwijder de map
-- **Mac** — in Finder <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>, plak
-  `~/Library/Application Support/classroom-randomizer`, Enter, sleep de map naar de Prullenmand
-- **Linux** — verwijder de map `~/.config/classroom-randomizer`
+Either way your name lists and rotas are **not** deleted — they're kept separately, so
+reinstalling picks up where you left off. To wipe them too:
 
-Dat wist je namenlijsten, templates en geschiedenis definitief. Exporteer eerst je schema als
-je het nog nodig hebt.
+- **Windows** — <kbd>Win</kbd>+<kbd>R</kbd>, paste `%APPDATA%\classroom-randomizer`, Enter, delete the folder
+- **Mac** — in Finder press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>, paste
+  `~/Library/Application Support/classroom-randomizer`, Enter, drag the folder to the Bin
+- **Linux** — delete the folder `~/.config/classroom-randomizer`
+
+That erases your name lists, templates and history permanently. Export your schedule first if
+you might still need it.
 
 ---
 
-Deze repository bevat alleen de installer en deze pagina. De broncode van de app is privé.
+This repository contains only the installer and this page. The app's source code is private.

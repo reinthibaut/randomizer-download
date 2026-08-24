@@ -21,9 +21,13 @@ This repo holds only the install page and the released installers.
 - Private source: `github.com/reinthibaut/reins-randomizer`
 
 ## Language
-The app's interface is in Dutch, so this page and README are in Dutch too. Cypher's
-equivalent page is in English because that app has a different audience — don't "fix" this
-one to match it.
+This page and README are in **English**, like cypher-download.
+
+The app's own interface is in **Dutch**, so the screen names quoted on the page (`Naam sets`,
+`Taken`, `Groepen`, `Volledig schema`, `Puur willekeurig`) are deliberately left in Dutch
+with an English gloss beside them. Translating those labels would mean the instructions no
+longer match the buttons people actually see. If the app is ever translated, update them here
+in the same commit.
 
 ## Rules
 - **This repo is public.** Never put keys, personal data, `.env` files, student names, or
