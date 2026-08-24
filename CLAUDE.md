@@ -50,7 +50,7 @@ one to match it.
    both artifacts, then rename:
    - `Rein's Randomizer-<version>-universal.dmg` → `ReinsRandomizer.dmg`
    - `Rein's Randomizer-<version>.AppImage` → `ReinsRandomizer.AppImage`
-   - `reins-randomizer_<version>_amd64.deb` → `ReinsRandomizer.deb`
+   - `classroom-randomizer_<version>_amd64.deb` → `ReinsRandomizer.deb`
 
    Neither build can run on Windows — macOS packaging needs `hdiutil`, Linux needs
    `dpkg`/`fakeroot`.

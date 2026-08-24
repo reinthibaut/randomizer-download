@@ -85,7 +85,7 @@ nodig. Je namenlijsten en roosters staan alleen op je eigen machine.
 **Mac** — open **Programma's**, sleep **Rein's Randomizer** naar de Prullenmand en leeg die.
 Macs hebben geen uninstaller; iets wegslepen is daar de normale manier.
 
-**Linux** — `sudo apt remove reins-randomizer` voor de `.deb`. Een AppImage gooi je gewoon weg.
+**Linux** — `sudo apt remove classroom-randomizer` voor de `.deb`. Een AppImage gooi je gewoon weg.
 
 Je namenlijsten en roosters worden daarbij **niet** verwijderd — die staan apart, zodat
 opnieuw installeren alles terugvindt. Wil je die ook wissen:
